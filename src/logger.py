@@ -1,6 +1,6 @@
 import logging
 import os
-from datetime import datetime
+from datetime import datetime       
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%y_%h_%m_%s')}.log"
 logs_path=os.path.join(os.getcwd(),'logs',LOG_FILE)
